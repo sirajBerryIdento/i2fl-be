@@ -27,7 +27,11 @@ app.get('/LuccaLeaves/:ownerId&:date&:paging', (req, res) => {
         })
 })
 
-
+app.get('/synchronized', function(req,res){
+    console.log("req: ",req)
+    console.log("res: ",res)
+    res.send("Hello World!!!")
+})
 app.listen(8090, function () {
     console.log("Backend Application listening at http://localhost:8090")
 })
