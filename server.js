@@ -29,6 +29,6 @@ app.get('/LuccaLeaves/:ownerId&:date&:paging', (req, res) => {
 
 
 app.listen(process.env.PORT || 8080, function () {
-    console.log("Backend Application listening at https://i2fl-be.herokuapp.com")
+    console.log("Backend Application listening at LiveURL.BE_VALUE")
 })
 /* command: git push origin main*/
